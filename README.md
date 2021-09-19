@@ -1,3 +1,5 @@
 # Probability-of-Kill
-Program computes single-shot probability of kill, as well as probability of miss, when given two user inputs: the REP 
-(range error probable) of the firing weapon, as well as the target length
+Small program I wrote based upon the mathematical model for single-shot probability of kill, and of miss, described by
+J.S Przemieniecki in "Mathematical Methods in Defense Analayis, 3rd Edition". The computation assumes no systematic error
+and that the firing weapon is aiming at the center of the target. Additionally, an LEP (linear error probable) in-range of 0.6745
+is assumed for calculation purposes. The program prompts the user for two inputs: REP (range error probable) of the firing weapon, as well as target length.
